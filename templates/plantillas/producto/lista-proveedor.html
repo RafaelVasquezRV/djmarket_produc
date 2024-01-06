@@ -1,0 +1,72 @@
+{% extends "producto/base_producto.html" %}
+
+{% load  static %}
+
+{% block panel-content %}
+
+<div class="grid-x grid-margin-x">
+  <div class="cell grid-x grid-margin-x align-right">
+    <div class="cell small-3">
+      <a href="{% url 'producto_app:provider-add' %}" class="button success fi-page-add"> Nuevo Registro</a>
+      <a href="{% url 'home_app:index' %}" class="button alert fi-x"> Cerrar</a>
+    </div>
+  </div>
+  
+  <div class="cell grid-x grid-margin-x" style="margin-top: 2em;">
+    <table class="hover">
+      <thead>
+        <th>Nombres</th>
+        <th>Correo</th>
+        <th>Teléfono</th>
+        <th>Web</th>
+        <th>Acciones</th>
+      </thead>
+      <tbody>
+        {% for proveedor in proveedores%}
+          <tr>
+            <td>{{proveedor.name}}</td>
+            <td>{{proveedor.email}}</td>
+            <td>{{proveedor.phone}}</td>
+            <td>{{proveedor.web}}</td>
+            <td>
+              <a href="{% url 'producto_app:provider-update' proveedor.id %}" class="button"><i class="fi-pencil"></i></a>
+              <a href="{% url 'producto_app:provider-detail' proveedor.id %}" class="button warning"><i class="fi-eye"></i></a>
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <!-- inicio de bloque de paginacion -->
+    <div class="cell">
+     {% if is_paginated %}            
+     <nav aria-label="Pagination">
+         <ul class="pagination">
+             {% if page_obj.has_previous %}
+             <li class="pagination-previous">
+                 <a href="?page={{page_obj.previous_page_number}}">Atrás</a>
+             </li>                  
+             {% endif %}
+    
+             {% for pagina in paginator.page_range %}                    
+             {% if pagina == page_obj.number %} 
+             <li class="current"><span class="show-for-sr">You're on page</span> {{ pagina }}</li>
+             {% else %}
+             <li class=""><a href="?page={{pagina}}">{{ pagina }}</a></li>
+             {% endif %}                        
+             {% endfor %}
+             
+             {% if page_obj.has_next %}
+             <li class="pagination-next">                        
+                 <a href="?page={{page_obj.next_page_number}}">Siguiente</a>                        
+             </li>
+             {% endif %}
+         </ul>
+     </nav>
+     {% endif %}
+    </div>
+    <!-- FIN bloque de paginacion -->
+  </div>
+</div>
+
+
+{% endblock panel-content %}

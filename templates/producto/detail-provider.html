@@ -1,0 +1,29 @@
+{% extends "producto/base_producto.html" %}
+
+{% load  static %}
+
+{% block panel-content %}
+
+<div class="grid-x grid-margin-x align-center">
+  <h5 class="cell" style="margin-bottom: 1em; text-align: center;">Detalle del proveedor</h5>  
+  <div class="cell medium-9 grid-x grid-margin-x align-center">
+    
+    <div class="cell medium-7">
+        <div class="card cell">
+            <div class="card-section">
+              <h4>{{ provider.name }}</h4>
+              <p><span style="font-weight: bold;">Correo:</span> {{ provider.email }}</p>
+              <p><span style="font-weight: bold;">Teléfono:</span> {{ provider.phone }}</p>
+              <p><span style="font-weight: bold;">WebSite:</span> {{ provider.web }}</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="cell medium-6">
+      <a target="_blank" href="{% url 'producto_app:provider-detail_print' provider.id %}" class="primary button fi-print"> Imprimir</a>
+      <a href="{% url 'producto_app:proveedor-lista' %}" class="primary button clear fi-previous"> Volver</a>
+    </div>
+  </div>
+</div>
+
+{% endblock panel-content %}

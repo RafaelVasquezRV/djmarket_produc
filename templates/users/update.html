@@ -1,0 +1,104 @@
+{% extends "users/base_users.html" %}
+
+{% load  static %}
+
+{% block panel-content %}
+
+<div class="grid-x grid-margin-x align-center">
+  <h3 class="cell" style="margin-bottom: 1em; text-align: center;">Datos Usuario</h3>  
+  <form class="cell medium-9 grid-x grid-margin-x align-center" method="POST">{% csrf_token %}
+
+    <div class="cell medium-12">
+      <label>Contraseña actual:</label>
+      <div class="input-group">
+        <span class="input-group-label"><i class="fi-lock"></i></span>
+        {{ form.password_current }}
+      </div>
+    </div>
+
+    <div class="cell medium-12">
+      <label>Nueva contraseña:</label>
+      <div class="input-group">
+        <span class="input-group-label"><i class="fi-lock"></i></span>
+        {{ form.password_new }}
+      </div>
+    </div>
+
+    <div class="cell medium-12">
+      <label>Confirmar nueva contraseña:</label>
+      <div class="input-group">
+        <span class="input-group-label"><i class="fi-lock"></i></span>
+        {{ form.password_confirm }}
+        
+      </div>
+    </div>
+      
+    <div class="cell medium-12">
+      <label>Email:</label>
+      <div class="input-group">
+        <span class="input-group-label"><i class="fi-mail"></i></span>
+        {{ form.email }}
+      </div>
+      {% for error in form.email.errors %}
+        <p class="cell" style="color: red;">
+          {{ error|escape }}
+        </p>
+      {% endfor %}
+    </div>
+    <div class="cell medium-6">
+      <label>Nombre:</label>
+      <div class="input-group">
+        <span class="input-group-label"><i class="fi-book"></i></span>
+        {{form.full_name}}
+      </div>
+    </div>
+
+    <div class="cell medium-6">
+      <label>Permisos:</label>
+      <div class="input-group">
+        {{form.ocupation}}
+      </div>
+    </div>
+    <div class="cell medium-6">
+      <label>Genero:</label>
+      <div class="input-group">
+        {{form.genero}}
+      </div>
+    </div>
+
+    <div class="cell medium-6">
+      <label>Fecha de Nacimiento:</label>
+      <div class="input-group">
+        <span class="input-group-label"><i class="fi-calendar"></i></span>
+        {{ form.date_birth }}
+      </div>
+    </div>
+
+    <div class="cell medium-6">
+        <label>Usuario Activo:</label>
+        <div class="input-group">
+          {{ form.is_active }}
+        </div>
+        <div class="grid-x grid-margin-x align-center">
+          <form method="POST"> {% csrf_token%}
+            <div class="cell medium-8">
+              <button type="submit" class="cell button success fi-page-edit">Guardar</button>
+            </div>
+          </form>
+          {% comment %} <div class="cell medium-10">
+            <button type="submit" class="cell button success">Guardar</button>
+          </div> {% endcomment %}
+          <form class="" action="{% url 'users_app:user-delete' object.id %}" method="POST">
+            {% csrf_token %}
+            <div class="cell medium-8">
+              <button type="submit" class="cell button warning fi-trash"> Eliminar</button>
+            </div>
+            <a href="{% url 'users_app:user-lista' %}" class="cell button alert fi-x-circle"> Cerrar</a>
+          </form>
+        </div>
+    </div>
+  </form>
+
+</div>
+
+{% endblock panel-content %}

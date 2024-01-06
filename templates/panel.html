@@ -1,0 +1,84 @@
+{% extends "base.html" %}
+
+{% load  static %}
+
+{% block content %}
+
+<div class="off-canvas-wrapper">
+  <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+
+    <div class="off-canvas position-left reveal-for-large" id="my-info" data-off-canvas data-position="left" style="background-color: #424242;">
+      <div class="row column">
+        <a href="{% url 'home_app:index' %}">
+          <h6 style="text-align: center; padding: 0.3em; color: #ffae00; font-weight: bold;">CROANCA_Market</h6>
+        </a>
+        <ul class="vertical medium-horizontal menu" menu" data-responsive-menu="accordion medium-dropdown" data-auto-height="true" data-animate-height="true">
+            <li>
+              <a href="#"><span class="label warning">Almacen</span></a>
+              <ul class="nested vertical menu">
+                <li class="{% if request.resolver_match.url_name == 'producto-lista' %}activeli{% endif %}">
+                  <a href="{% url 'producto_app:proveedor-lista' %}" style="color: black; font-weight: bold; text-shadow: 2px 2px 2px #ffffff;" class="fi-results-demographics"> Proveedor</a>
+                </li>
+                <li class="{% if request.resolver_match.url_name == 'producto-lista' %}activeli{% endif %}">
+                  <a href="{% url 'producto_app:producto-lista' %}" style="color: black; font-weight:bold; text-shadow: 2px 2px 2px #ffffff;" class="fi-results"> Productos</a>
+                </li>
+                <li class="{% if request.resolver_match.url_name == 'producto-filtros' %}activeli{% endif %}">
+                  <a href="{% url 'producto_app:producto-filtros' %}" style="color: black; font-weight: bold; text-shadow: 2px 2px 2px #ffffff;" class="fi-clipboard-notes"> Reportes</a>
+                </li>
+              </ul>
+            </li>
+        </ul>
+        <ul class="vertical medium-horizontal menu" menu" data-responsive-menu="accordion medium-dropdown" data-auto-height="true" data-animate-height="true">
+            <li>
+              <a href="#"><span class="label warning">Ventas</span></a>
+              <ul class="nested vertical menu">
+                <li class="{% if request.resolver_match.url_name == 'venta-index' %}activeli{% endif %}">
+                  <a href="{% url 'venta_app:venta-index' %}" style="color: black; font-weight: bold; text-shadow: 2px 2px 2px #ffffff;" class="fi-shopping-cart"> Vender</a>
+                </li>
+                <li class="{% if request.resolver_match.url_name == 'caja-index' %}activeli{% endif %}">
+                  <a href="{% url 'caja_app:caja-index' %}" style="color: black; font-weight: bold; text-shadow: 2px 2px 2px #ffffff;" class="fi-lock"> Cerrar Caja</a>
+                </li>
+              </ul>
+            </li>
+        </ul>
+        <ul class="vertical medium-horizontal menu" data-responsive-menu="accordion medium-dropdown" data-auto-height="true" data-animate-height="true">
+            <li>
+              <a href="#"><span class="label warning">Administración</span></a>
+              <ul class="nested vertical menu">
+                <li class="{% if request.resolver_match.url_name == 'index-admin' %}activeli{% endif %}">
+                  <a href="{% url 'home_app:index-admin' %}" style="color: black; font-weight: bold; text-shadow: 2px 2px 2px #ffffff;" class="fi-social-skillshare"> Administración</a>
+                </li>
+                <li class="{% if request.resolver_match.url_name == 'user-lista' %}activeli{% endif %}">
+                  <a href="{% url 'users_app:user-lista' %}" style="color: black; font-weight: bold; text-shadow: 2px 2px 2px #ffffff;" class="fi-torsos-all"> Usuarios</a>
+                </li>
+                <li class="{% if request.resolver_match.url_name == 'admin-reporte' %}activeli{% endif %}">
+                  <a href="{% url 'home_app:admin-reporte' %}" style="color: black; font-weight: bold; text-shadow: 2px 2px 2px #ffffff;" class="fi-social-stack-overflow"> Reportes</a>
+                </li>
+              </ul>
+            </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="off-canvas-content" data-off-canvas-content>
+      <!-- declaramos un nuevo bloque para contenido de panel -->
+      <div class="grid-x">
+        <div class="cell top-bar" style="background-color: #424242;">
+          <button class="menu-icon" type="button" style="margin-bottom: 10px;"  data-responsive-toggle="main-nav" data-toggle="my-info"></button>
+          <div class="top-bar-left">
+            <h4 style="color: white; margin: 5px;">Sesión de: {{ user.full_name }}</h4>
+          </div>
+          <div class="top-bar-right">
+            <a href="{% url 'users_app:user-logout' %}">
+              <span class="label warning">Salir</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="grid-container" style="padding: 1em;">
+        {% block panel-content %}
+        {% endblock panel-content %}
+      </div>
+  </div>
+</div>
+{% endblock content %}

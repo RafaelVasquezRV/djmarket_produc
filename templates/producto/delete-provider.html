@@ -1,0 +1,31 @@
+{% extends "producto/base_producto.html" %}
+
+{% load  static %}
+
+{% block panel-content %}
+
+<div class="grid-x grid-margin-x align-center">
+  <h5 class="cell" style="margin-bottom: 1em; text-align: center;">¿Desea eliminar este proveedor?</h5>  
+  <form class="cell medium-9 grid-x grid-margin-x align-center" 
+    action="{% url 'producto_app:provider-delete' provider.id %}" method="POST">
+    {% csrf_token %}
+    
+    <div class="cell medium-7">
+        <div class="card cell">
+            <div class="card-section">
+              <h4>{{ provider.name }}</h4>
+              <p>Correo: {{ provider.email }}</p>
+              <p>Teléfono: {{ provider.phone }}</p>
+              <p>Web: {{ provider.web }}</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="cell medium-6">
+      <button type="submit" class="alert button fi-trash">Eliminar</button>      
+      <a href="{% url 'producto_app:provider-update' provider.id %}"><i class="fi-arrow-left"></i>Volver</a>
+    </div>
+  </form>
+</div>
+
+{% endblock panel-content %}

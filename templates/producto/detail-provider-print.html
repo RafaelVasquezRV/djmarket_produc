@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      border: 2px solid #424242;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    .card {
+      border: 2px solid #424242;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    .content-frame {
+      border: 2px solid #424242;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    h1 {
+      font-size: 36px; /* Tamaño de la fuente del encabezado aumentado */
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Detalle del proveedor</h1>
+    <div class="card">
+        <div class="content-frame">
+          <p><h2><span style="font-weight: bold;">Nombre:</span> {{ provider.name }}</h2></p>
+          <p><h2><span style="font-weight: bold;">Correo:</span> {{ provider.email }}</h2></p>
+          <p><h2><span style="font-weight: bold;">Teléfono:</span> {{ provider.phone }}</h2></p>
+          <p><h2><span style="font-weight: bold;">WebSite:</span> {{ provider.web }}</h2></p>
+        </div>
+    </div>
+  </div>
+</body>
+</html>

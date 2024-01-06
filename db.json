@@ -1,0 +1,1513 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2020-06-05T00:24:13.871Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "1",
+    "object_repr": "neunapp@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Ocupation\", \"Genero\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2020-06-05T00:32:41.175Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Gloria",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2020-06-05T00:32:46.295Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Sirlac",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2020-06-05T00:32:51.833Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Surtido",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2020-06-05T00:32:56.794Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Trome",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2020-06-05T00:33:35.808Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Bella Olandesa",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2020-06-05T00:33:57.419Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Gloria",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2020-06-05T00:34:08.708Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Alicorp Cusco",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2020-06-05T00:34:16.785Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Distribuidor Surtido",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2020-06-05T00:34:25.592Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Alimentos Cusco SC",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2020-06-05T00:56:02.495Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Nº [1] - 2020-01-05 00:52:36+00:00",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Fecha de Venta\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2020-06-05T00:56:17.820Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Nº [2] - 2020-01-10 00:52:50+00:00",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Fecha de Venta\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2020-06-05T00:56:27.461Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Nº [3] - 2020-01-10 00:53:16+00:00",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Fecha de Venta\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2020-06-05T00:56:44.545Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "Nº [4] - 2020-02-19 00:53:42+00:00",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Fecha de Venta\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2020-06-05T00:56:53.364Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "5",
+    "object_repr": "Nº [5] - 2020-02-19 00:53:54+00:00",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Fecha de Venta\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2020-06-05T00:57:02.857Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "6",
+    "object_repr": "Nº [6] - 2020-02-19 00:54:03+00:00",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Fecha de Venta\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2020-06-05T00:57:18.264Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "7",
+    "object_repr": "Nº [7] - 2020-03-25 00:54:38+00:00",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Fecha de Venta\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2020-06-05T00:57:26.840Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "8",
+    "object_repr": "Nº [8] - 2020-03-25 00:55:13+00:00",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Fecha de Venta\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2020-06-05T00:58:00.939Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "9",
+    "object_repr": "Nº [9] - 2020-03-25 00:55:28+00:00",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Fecha de Venta\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2020-06-05T00:59:12.457Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "10",
+    "object_repr": "Nº [10] - 2020-04-09 00:57:41+00:00",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Fecha de Venta\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2020-06-05T00:59:21.799Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "11",
+    "object_repr": "Nº [11] - 2020-04-09 00:58:26+00:00",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Fecha de Venta\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2020-06-05T00:59:30.113Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "12",
+    "object_repr": "Nº [12] - 2020-04-09 00:58:39+00:00",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Fecha de Venta\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2020-06-05T01:00:07.105Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "13",
+    "object_repr": "Nº [13] - 2020-05-06 00:59:53+00:00",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Fecha de Venta\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2023-04-07T18:14:09.579Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "crosbym8@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Ocupation\", \"Genero\", \"Fecha de nacimiento\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2023-04-07T19:05:46.606Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "crosbym8@gmail.com",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2023-04-07T19:07:08.909Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "crosbym8@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Superuser status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2023-12-17T23:22:08.656Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "6",
+    "object_repr": "deploysp2022@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Ocupation\"]}}]"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "xwxnescyf6pucjacdo82r1f88fskm27s",
+  "fields": {
+    "session_data": "NTg0OWNlYjdhMzAwMzliZWYyOTY0YzYzY2JjNzQ5MDBkOWMwMmEyODp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxY2RhMGI2YWFlNjQ0NzM1NGJhY2JhNDNjYjM4ZGNmYjE3NzNiY2M0In0=",
+    "expire_date": "2020-06-19T00:24:34.020Z"
+  }
+},
+{
+  "model": "caja.closebox",
+  "pk": 1,
+  "fields": {
+    "created": "2020-06-05T01:00:47.408Z",
+    "modified": "2020-06-05T01:00:47.408Z",
+    "date_close": "2020-06-05T01:00:47.408Z",
+    "count": 13,
+    "amount": "69.10",
+    "user": 1
+  }
+},
+{
+  "model": "caja.closebox",
+  "pk": 2,
+  "fields": {
+    "created": "2023-03-27T15:30:30.068Z",
+    "modified": "2023-03-27T15:30:30.068Z",
+    "date_close": "2023-03-27T15:30:30.068Z",
+    "count": 1,
+    "amount": "72.30",
+    "user": 5
+  }
+},
+{
+  "model": "caja.closebox",
+  "pk": 5,
+  "fields": {
+    "created": "2024-01-06T02:29:41.658Z",
+    "modified": "2024-01-06T02:29:41.658Z",
+    "date_close": "2024-01-06T02:29:41.657Z",
+    "count": 3,
+    "amount": "284.00",
+    "user": 10
+  }
+},
+{
+  "model": "producto.marca",
+  "pk": 1,
+  "fields": {
+    "created": "2020-06-05T00:32:41.174Z",
+    "modified": "2020-06-05T00:32:41.174Z",
+    "name": "Gloria"
+  }
+},
+{
+  "model": "producto.marca",
+  "pk": 2,
+  "fields": {
+    "created": "2020-06-05T00:32:46.293Z",
+    "modified": "2020-06-05T00:32:46.293Z",
+    "name": "Sirlac"
+  }
+},
+{
+  "model": "producto.marca",
+  "pk": 3,
+  "fields": {
+    "created": "2020-06-05T00:32:51.831Z",
+    "modified": "2020-06-05T00:32:51.831Z",
+    "name": "Surtido"
+  }
+},
+{
+  "model": "producto.marca",
+  "pk": 4,
+  "fields": {
+    "created": "2020-06-05T00:32:56.793Z",
+    "modified": "2020-06-05T00:32:56.793Z",
+    "name": "Trome"
+  }
+},
+{
+  "model": "producto.provider",
+  "pk": 1,
+  "fields": {
+    "created": "2020-06-05T00:33:35.688Z",
+    "modified": "2020-06-05T00:33:35.688Z",
+    "name": "Bella Olandesa",
+    "email": "bellaolandesa@gmail.com",
+    "phone": "124587",
+    "web": "http://bellao.com"
+  }
+},
+{
+  "model": "producto.provider",
+  "pk": 2,
+  "fields": {
+    "created": "2020-06-05T00:33:57.417Z",
+    "modified": "2020-06-05T00:33:57.417Z",
+    "name": "Gloria",
+    "email": "gloria@gmaiil.com",
+    "phone": "458712",
+    "web": "http://gloria.com"
+  }
+},
+{
+  "model": "producto.provider",
+  "pk": 3,
+  "fields": {
+    "created": "2020-06-05T00:34:08.705Z",
+    "modified": "2020-06-05T00:34:08.705Z",
+    "name": "Alicorp Cusco",
+    "email": null,
+    "phone": "",
+    "web": ""
+  }
+},
+{
+  "model": "producto.provider",
+  "pk": 4,
+  "fields": {
+    "created": "2020-06-05T00:34:16.783Z",
+    "modified": "2020-06-05T00:34:16.783Z",
+    "name": "Distribuidor Surtido",
+    "email": null,
+    "phone": "",
+    "web": ""
+  }
+},
+{
+  "model": "producto.provider",
+  "pk": 5,
+  "fields": {
+    "created": "2020-06-05T00:34:25.591Z",
+    "modified": "2023-12-23T04:03:26.793Z",
+    "name": "Alimentos Cusco SC",
+    "email": "crosbym8@gmail.com",
+    "phone": "+584169191077",
+    "web": "https://www.alimentos-cusco-sc.com"
+  }
+},
+{
+  "model": "producto.product",
+  "pk": 1,
+  "fields": {
+    "created": "2020-05-13T23:21:12.410Z",
+    "modified": "2024-01-06T02:29:11.333Z",
+    "barcode": "751271276733",
+    "name": "Yomost",
+    "provider": 1,
+    "marca": 1,
+    "due_date": "2020-07-21",
+    "description": "",
+    "unit": "2",
+    "count": 90,
+    "purchase_price": "0.60",
+    "sale_price": "1.00",
+    "num_sale": 32,
+    "anulate": false
+  }
+},
+{
+  "model": "producto.product",
+  "pk": 2,
+  "fields": {
+    "created": "2020-05-13T23:33:32.943Z",
+    "modified": "2023-03-27T15:03:00.886Z",
+    "barcode": "751271025072",
+    "name": "Mermelada de fresa Gloria",
+    "provider": 2,
+    "marca": 1,
+    "due_date": "2021-09-16",
+    "description": "",
+    "unit": "2",
+    "count": 70,
+    "purchase_price": "1.30",
+    "sale_price": "2.00",
+    "num_sale": 34,
+    "anulate": false
+  }
+},
+{
+  "model": "producto.product",
+  "pk": 3,
+  "fields": {
+    "created": "2020-05-14T16:47:05.275Z",
+    "modified": "2023-03-27T15:03:00.882Z",
+    "barcode": "702011075291",
+    "name": "Millows",
+    "provider": 1,
+    "marca": 1,
+    "due_date": "2021-05-30",
+    "description": "Magemelos de colores",
+    "unit": "2",
+    "count": 21,
+    "purchase_price": "1.50",
+    "sale_price": "2.30",
+    "num_sale": 29,
+    "anulate": false
+  }
+},
+{
+  "model": "producto.product",
+  "pk": 4,
+  "fields": {
+    "created": "2020-05-14T17:10:08.391Z",
+    "modified": "2023-03-27T15:03:00.883Z",
+    "barcode": "750521000050",
+    "name": "Yogurt Sauco",
+    "provider": 5,
+    "marca": 2,
+    "due_date": "2020-05-28",
+    "description": "Yopgurt natural sabor a sauco",
+    "unit": "1",
+    "count": 34,
+    "purchase_price": "1.00",
+    "sale_price": "2.30",
+    "num_sale": 28,
+    "anulate": false
+  }
+},
+{
+  "model": "producto.product",
+  "pk": 5,
+  "fields": {
+    "created": "2023-03-27T15:13:30.171Z",
+    "modified": "2023-03-27T15:13:30.171Z",
+    "barcode": "123456789102",
+    "name": "Disco duro 500GB",
+    "provider": 2,
+    "marca": 1,
+    "due_date": "2033-03-27",
+    "description": "Unidad de almacenamiento de disco duro de 500GB",
+    "unit": "2",
+    "count": 92,
+    "purchase_price": "50.00",
+    "sale_price": "70.00",
+    "num_sale": 8,
+    "anulate": false
+  }
+},
+{
+  "model": "users.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$hqG2bgIK7WC1$gVEUVidczeo4ZKLlnuLGXuyWFb9fS6Mu1anZz9b/ZOQ=",
+    "last_login": "2020-06-05T00:24:34Z",
+    "is_superuser": true,
+    "email": "neunapp@gmail.com",
+    "full_name": "neunapp",
+    "ocupation": "0",
+    "genero": "M",
+    "date_birth": null,
+    "is_staff": true,
+    "is_active": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$2iwaJVQ4f07x1fzxfqJKGz$rUZmxQbGigwotInCK/8acHB2fa4R+9yeQIJmYrwFY50=",
+    "last_login": "2023-04-16T04:06:30.016Z",
+    "is_superuser": false,
+    "email": "ventas@gmail.com",
+    "full_name": "ventas",
+    "ocupation": "2",
+    "genero": "M",
+    "date_birth": "2020-06-07",
+    "is_staff": false,
+    "is_active": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$6V2zLa2eogYAukKinBMjnL$l7yd3TJ53+MRFgQpiP3f+64gOJBZodOb4vt1P9ZQfTs=",
+    "last_login": "2023-04-09T20:05:46.588Z",
+    "is_superuser": false,
+    "email": "almacen@gmail.com",
+    "full_name": "Almacen",
+    "ocupation": "1",
+    "genero": "F",
+    "date_birth": "2020-06-19",
+    "is_staff": false,
+    "is_active": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$zUKiauPDBzBHGBCkMQRmLL$gsx2+Ct4rSuVW8uCOzoHF7TohnXwprjqb05WrGSYCxY=",
+    "last_login": "2023-04-07T23:59:10.351Z",
+    "is_superuser": false,
+    "email": "croancadigital@gmail.com",
+    "full_name": "crosby",
+    "ocupation": "0",
+    "genero": "M",
+    "date_birth": "1978-01-08",
+    "is_staff": false,
+    "is_active": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$MEHHZp46cJItL3NEbsX55K$K3lktdP3wmcomhdM/TJc/5g5oVwGUcNtlgdBZvBufsM=",
+    "last_login": "2023-12-31T02:25:29.055Z",
+    "is_superuser": true,
+    "email": "deploysp2022@gmail.com",
+    "full_name": "Rafael Antonio",
+    "ocupation": "0",
+    "genero": "",
+    "date_birth": null,
+    "is_staff": true,
+    "is_active": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 10,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$Udfw4usgzRcR8sT425Ir1e$eRubulO0V7Ap3q1td79uBsgUtK42jPwDGDtNO+N/ej0=",
+    "last_login": "2024-01-06T02:28:44.182Z",
+    "is_superuser": false,
+    "email": "crosbym8@gmail.com",
+    "full_name": "Crosby Martínez",
+    "ocupation": "0",
+    "genero": "M",
+    "date_birth": "1978-01-08",
+    "is_staff": false,
+    "is_active": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "venta.sale",
+  "pk": 1,
+  "fields": {
+    "created": "2020-06-05T00:52:36.308Z",
+    "modified": "2020-06-05T00:56:02.493Z",
+    "date_sale": "2020-01-05T00:52:36Z",
+    "count": 4,
+    "amount": "7.60",
+    "type_invoce": "2",
+    "type_payment": "1",
+    "close": true,
+    "anulate": false,
+    "user": 1
+  }
+},
+{
+  "model": "venta.sale",
+  "pk": 2,
+  "fields": {
+    "created": "2020-06-05T00:52:50.008Z",
+    "modified": "2020-06-05T00:56:17.816Z",
+    "date_sale": "2020-01-10T00:52:50Z",
+    "count": 3,
+    "amount": "6.90",
+    "type_invoce": "2",
+    "type_payment": "1",
+    "close": true,
+    "anulate": false,
+    "user": 1
+  }
+},
+{
+  "model": "venta.sale",
+  "pk": 3,
+  "fields": {
+    "created": "2020-06-05T00:53:16.883Z",
+    "modified": "2020-06-05T00:56:27.456Z",
+    "date_sale": "2020-01-10T00:53:16Z",
+    "count": 4,
+    "amount": "6.30",
+    "type_invoce": "2",
+    "type_payment": "1",
+    "close": true,
+    "anulate": false,
+    "user": 1
+  }
+},
+{
+  "model": "venta.sale",
+  "pk": 4,
+  "fields": {
+    "created": "2020-06-05T00:53:42.175Z",
+    "modified": "2020-06-05T00:56:44.537Z",
+    "date_sale": "2020-02-19T00:53:42Z",
+    "count": 2,
+    "amount": "4.60",
+    "type_invoce": "2",
+    "type_payment": "1",
+    "close": true,
+    "anulate": false,
+    "user": 1
+  }
+},
+{
+  "model": "venta.sale",
+  "pk": 5,
+  "fields": {
+    "created": "2020-06-05T00:53:54.684Z",
+    "modified": "2020-06-05T00:56:53.356Z",
+    "date_sale": "2020-02-19T00:53:54Z",
+    "count": 4,
+    "amount": "5.00",
+    "type_invoce": "2",
+    "type_payment": "1",
+    "close": true,
+    "anulate": false,
+    "user": 1
+  }
+},
+{
+  "model": "venta.sale",
+  "pk": 6,
+  "fields": {
+    "created": "2020-06-05T00:54:03.938Z",
+    "modified": "2020-06-05T00:57:02.856Z",
+    "date_sale": "2020-02-19T00:54:03Z",
+    "count": 4,
+    "amount": "5.00",
+    "type_invoce": "2",
+    "type_payment": "1",
+    "close": true,
+    "anulate": false,
+    "user": 1
+  }
+},
+{
+  "model": "venta.sale",
+  "pk": 7,
+  "fields": {
+    "created": "2020-06-05T00:54:38.106Z",
+    "modified": "2020-06-05T00:57:18.261Z",
+    "date_sale": "2020-03-25T00:54:38Z",
+    "count": 4,
+    "amount": "5.00",
+    "type_invoce": "2",
+    "type_payment": "1",
+    "close": true,
+    "anulate": false,
+    "user": 1
+  }
+},
+{
+  "model": "venta.sale",
+  "pk": 8,
+  "fields": {
+    "created": "2020-06-05T00:55:13.715Z",
+    "modified": "2020-06-05T00:57:26.838Z",
+    "date_sale": "2020-03-25T00:55:13Z",
+    "count": 3,
+    "amount": "6.60",
+    "type_invoce": "2",
+    "type_payment": "1",
+    "close": true,
+    "anulate": false,
+    "user": 1
+  }
+},
+{
+  "model": "venta.sale",
+  "pk": 9,
+  "fields": {
+    "created": "2020-06-05T00:55:28.117Z",
+    "modified": "2020-06-05T00:58:00.933Z",
+    "date_sale": "2020-03-25T00:55:28Z",
+    "count": 1,
+    "amount": "2.30",
+    "type_invoce": "2",
+    "type_payment": "1",
+    "close": true,
+    "anulate": false,
+    "user": 1
+  }
+},
+{
+  "model": "venta.sale",
+  "pk": 10,
+  "fields": {
+    "created": "2020-06-05T00:57:41.318Z",
+    "modified": "2020-06-05T00:59:12.452Z",
+    "date_sale": "2020-04-09T00:57:41Z",
+    "count": 3,
+    "amount": "6.60",
+    "type_invoce": "2",
+    "type_payment": "1",
+    "close": true,
+    "anulate": false,
+    "user": 1
+  }
+},
+{
+  "model": "venta.sale",
+  "pk": 11,
+  "fields": {
+    "created": "2020-06-05T00:58:26.453Z",
+    "modified": "2020-06-05T00:59:21.794Z",
+    "date_sale": "2020-04-09T00:58:26Z",
+    "count": 3,
+    "amount": "5.60",
+    "type_invoce": "2",
+    "type_payment": "1",
+    "close": true,
+    "anulate": false,
+    "user": 1
+  }
+},
+{
+  "model": "venta.sale",
+  "pk": 12,
+  "fields": {
+    "created": "2020-06-05T00:58:39.002Z",
+    "modified": "2020-06-05T00:59:30.111Z",
+    "date_sale": "2020-04-09T00:58:39Z",
+    "count": 2,
+    "amount": "4.60",
+    "type_invoce": "2",
+    "type_payment": "1",
+    "close": true,
+    "anulate": false,
+    "user": 1
+  }
+},
+{
+  "model": "venta.sale",
+  "pk": 13,
+  "fields": {
+    "created": "2020-06-05T00:59:53.281Z",
+    "modified": "2020-06-05T01:00:07.098Z",
+    "date_sale": "2020-05-06T00:59:53Z",
+    "count": 2,
+    "amount": "3.00",
+    "type_invoce": "2",
+    "type_payment": "1",
+    "close": true,
+    "anulate": false,
+    "user": 1
+  }
+},
+{
+  "model": "venta.sale",
+  "pk": 14,
+  "fields": {
+    "created": "2023-03-27T15:29:32.099Z",
+    "modified": "2023-03-27T15:29:32.127Z",
+    "date_sale": "2023-03-27T15:29:32.099Z",
+    "count": 2,
+    "amount": "72.30",
+    "type_invoce": "2",
+    "type_payment": "1",
+    "close": true,
+    "anulate": false,
+    "user": 5
+  }
+},
+{
+  "model": "venta.sale",
+  "pk": 18,
+  "fields": {
+    "created": "2024-01-04T00:39:30.736Z",
+    "modified": "2024-01-04T00:39:30.748Z",
+    "date_sale": "2024-01-04T00:39:30.736Z",
+    "count": 3,
+    "amount": "142.00",
+    "type_invoce": "2",
+    "type_payment": "1",
+    "close": true,
+    "anulate": false,
+    "user": 10
+  }
+},
+{
+  "model": "venta.sale",
+  "pk": 19,
+  "fields": {
+    "created": "2024-01-04T00:40:04.141Z",
+    "modified": "2024-01-04T00:40:04.154Z",
+    "date_sale": "2024-01-04T00:40:04.141Z",
+    "count": 1,
+    "amount": "70.00",
+    "type_invoce": "2",
+    "type_payment": "1",
+    "close": true,
+    "anulate": false,
+    "user": 10
+  }
+},
+{
+  "model": "venta.sale",
+  "pk": 20,
+  "fields": {
+    "created": "2024-01-04T22:26:47.030Z",
+    "modified": "2024-01-04T22:26:47.045Z",
+    "date_sale": "2024-01-04T22:26:47.030Z",
+    "count": 3,
+    "amount": "72.00",
+    "type_invoce": "2",
+    "type_payment": "1",
+    "close": true,
+    "anulate": false,
+    "user": 10
+  }
+},
+{
+  "model": "venta.saledetail",
+  "pk": 1,
+  "fields": {
+    "created": "2020-06-05T00:52:36.344Z",
+    "modified": "2020-06-05T00:52:36.344Z",
+    "product": 1,
+    "sale": 1,
+    "count": 1,
+    "price_purchase": "0.600",
+    "price_sale": "1.00",
+    "tax": "0.18",
+    "anulate": false
+  }
+},
+{
+  "model": "venta.saledetail",
+  "pk": 2,
+  "fields": {
+    "created": "2020-06-05T00:52:36.347Z",
+    "modified": "2020-06-05T00:52:36.347Z",
+    "product": 2,
+    "sale": 1,
+    "count": 1,
+    "price_purchase": "1.300",
+    "price_sale": "2.00",
+    "tax": "0.18",
+    "anulate": false
+  }
+},
+{
+  "model": "venta.saledetail",
+  "pk": 3,
+  "fields": {
+    "created": "2020-06-05T00:52:36.353Z",
+    "modified": "2020-06-05T00:52:36.353Z",
+    "product": 3,
+    "sale": 1,
+    "count": 1,
+    "price_purchase": "1.500",
+    "price_sale": "2.30",
+    "tax": "0.18",
+    "anulate": false
+  }
+},
+{
+  "model": "venta.saledetail",
+  "pk": 4,
+  "fields": {
+    "created": "2020-06-05T00:52:36.358Z",
+    "modified": "2020-06-05T00:52:36.358Z",
+    "product": 4,
+    "sale": 1,
+    "count": 1,
+    "price_purchase": "1.000",
+    "price_sale": "2.30",
+    "tax": "0.18",
+    "anulate": false
+  }
+},
+{
+  "model": "venta.saledetail",
+  "pk": 5,
+  "fields": {
+    "created": "2020-06-05T00:52:50.023Z",
+    "modified": "2020-06-05T00:52:50.023Z",
+    "product": 4,
+    "sale": 2,
+    "count": 3,
+    "price_purchase": "1.000",
+    "price_sale": "2.30",
+    "tax": "0.18",
+    "anulate": false
+  }
+},
+{
+  "model": "venta.saledetail",
+  "pk": 6,
+  "fields": {
+    "created": "2020-06-05T00:53:16.917Z",
+    "modified": "2020-06-05T00:53:16.917Z",
+    "product": 1,
+    "sale": 3,
+    "count": 2,
+    "price_purchase": "0.600",
+    "price_sale": "1.00",
+    "tax": "0.18",
+    "anulate": false
+  }
+},
+{
+  "model": "venta.saledetail",
+  "pk": 7,
+  "fields": {
+    "created": "2020-06-05T00:53:16.920Z",
+    "modified": "2020-06-05T00:53:16.920Z",
+    "product": 2,
+    "sale": 3,
+    "count": 1,
+    "price_purchase": "1.300",
+    "price_sale": "2.00",
+    "tax": "0.18",
+    "anulate": false
+  }
+},
+{
+  "model": "venta.saledetail",
+  "pk": 8,
+  "fields": {
+    "created": "2020-06-05T00:53:16.922Z",
+    "modified": "2020-06-05T00:53:16.922Z",
+    "product": 3,
+    "sale": 3,
+    "count": 1,
+    "price_purchase": "1.500",
+    "price_sale": "2.30",
+    "tax": "0.18",
+    "anulate": false
+  }
+},
+{
+  "model": "venta.saledetail",
+  "pk": 9,
+  "fields": {
+    "created": "2020-06-05T00:53:42.208Z",
+    "modified": "2020-06-05T00:53:42.208Z",
+    "product": 3,
+    "sale": 4,
+    "count": 1,
+    "price_purchase": "1.500",
+    "price_sale": "2.30",
+    "tax": "0.18",
+    "anulate": false
+  }
+},
+{
+  "model": "venta.saledetail",
+  "pk": 10,
+  "fields": {
+    "created": "2020-06-05T00:53:42.213Z",
+    "modified": "2020-06-05T00:53:42.213Z",
+    "product": 4,
+    "sale": 4,
+    "count": 1,
+    "price_purchase": "1.000",
+    "price_sale": "2.30",
+    "tax": "0.18",
+    "anulate": false
+  }
+},
+{
+  "model": "venta.saledetail",
+  "pk": 11,
+  "fields": {
+    "created": "2020-06-05T00:53:54.705Z",
+    "modified": "2020-06-05T00:53:54.705Z",
+    "product": 1,
+    "sale": 5,
+    "count": 3,
+    "price_purchase": "0.600",
+    "price_sale": "1.00",
+    "tax": "0.18",
+    "anulate": false
+  }
+},
+{
+  "model": "venta.saledetail",
+  "pk": 12,
+  "fields": {
+    "created": "2020-06-05T00:53:54.706Z",
+    "modified": "2020-06-05T00:53:54.706Z",
+    "product": 2,
+    "sale": 5,
+    "count": 1,
+    "price_purchase": "1.300",
+    "price_sale": "2.00",
+    "tax": "0.18",
+    "anulate": false
+  }
+},
+{
+  "model": "venta.saledetail",
+  "pk": 13,
+  "fields": {
+    "created": "2020-06-05T00:54:03.969Z",
+    "modified": "2020-06-05T00:54:03.969Z",
+    "product": 1,
+    "sale": 6,
+    "count": 3,
+    "price_purchase": "0.600",
+    "price_sale": "1.00",
+    "tax": "0.18",
+    "anulate": false
+  }
+},
+{
+  "model": "venta.saledetail",
+  "pk": 14,
+  "fields": {
+    "created": "2020-06-05T00:54:03.971Z",
+    "modified": "2020-06-05T00:54:03.971Z",
+    "product": 2,
+    "sale": 6,
+    "count": 1,
+    "price_purchase": "1.300",
+    "price_sale": "2.00",
+    "tax": "0.18",
+    "anulate": false
+  }
+},
+{
+  "model": "venta.saledetail",
+  "pk": 15,
+  "fields": {
+    "created": "2020-06-05T00:54:38.128Z",
+    "modified": "2020-06-05T00:54:38.128Z",
+    "product": 1,
+    "sale": 7,
+    "count": 3,
+    "price_purchase": "0.600",
+    "price_sale": "1.00",
+    "tax": "0.18",
+    "anulate": false
+  }
+},
+{
+  "model": "venta.saledetail",
+  "pk": 16,
+  "fields": {
+    "created": "2020-06-05T00:54:38.131Z",
+    "modified": "2020-06-05T00:54:38.131Z",
+    "product": 2,
+    "sale": 7,
+    "count": 1,
+    "price_purchase": "1.300",
+    "price_sale": "2.00",
+    "tax": "0.18",
+    "anulate": false
+  }
+},
+{
+  "model": "venta.saledetail",
+  "pk": 17,
+  "fields": {
+    "created": "2020-06-05T00:55:13.733Z",
+    "modified": "2020-06-05T00:55:13.733Z",
+    "product": 2,
+    "sale": 8,
+    "count": 1,
+    "price_purchase": "1.300",
+    "price_sale": "2.00",
+    "tax": "0.18",
+    "anulate": false
+  }
+},
+{
+  "model": "venta.saledetail",
+  "pk": 18,
+  "fields": {
+    "created": "2020-06-05T00:55:13.735Z",
+    "modified": "2020-06-05T00:55:13.735Z",
+    "product": 3,
+    "sale": 8,
+    "count": 1,
+    "price_purchase": "1.500",
+    "price_sale": "2.30",
+    "tax": "0.18",
+    "anulate": false
+  }
+},
+{
+  "model": "venta.saledetail",
+  "pk": 19,
+  "fields": {
+    "created": "2020-06-05T00:55:13.737Z",
+    "modified": "2020-06-05T00:55:13.737Z",
+    "product": 4,
+    "sale": 8,
+    "count": 1,
+    "price_purchase": "1.000",
+    "price_sale": "2.30",
+    "tax": "0.18",
+    "anulate": false
+  }
+},
+{
+  "model": "venta.saledetail",
+  "pk": 20,
+  "fields": {
+    "created": "2020-06-05T00:55:28.199Z",
+    "modified": "2020-06-05T00:55:28.199Z",
+    "product": 4,
+    "sale": 9,
+    "count": 1,
+    "price_purchase": "1.000",
+    "price_sale": "2.30",
+    "tax": "0.18",
+    "anulate": false
+  }
+},
+{
+  "model": "venta.saledetail",
+  "pk": 21,
+  "fields": {
+    "created": "2020-06-05T00:57:41.342Z",
+    "modified": "2020-06-05T00:57:41.342Z",
+    "product": 2,
+    "sale": 10,
+    "count": 1,
+    "price_purchase": "1.300",
+    "price_sale": "2.00",
+    "tax": "0.18",
+    "anulate": false
+  }
+},
+{
+  "model": "venta.saledetail",
+  "pk": 22,
+  "fields": {
+    "created": "2020-06-05T00:57:41.344Z",
+    "modified": "2020-06-05T00:57:41.344Z",
+    "product": 3,
+    "sale": 10,
+    "count": 2,
+    "price_purchase": "1.500",
+    "price_sale": "2.30",
+    "tax": "0.18",
+    "anulate": false
+  }
+},
+{
+  "model": "venta.saledetail",
+  "pk": 23,
+  "fields": {
+    "created": "2020-06-05T00:58:26.487Z",
+    "modified": "2020-06-05T00:58:26.487Z",
+    "product": 1,
+    "sale": 11,
+    "count": 1,
+    "price_purchase": "0.600",
+    "price_sale": "1.00",
+    "tax": "0.18",
+    "anulate": false
+  }
+},
+{
+  "model": "venta.saledetail",
+  "pk": 24,
+  "fields": {
+    "created": "2020-06-05T00:58:26.493Z",
+    "modified": "2020-06-05T00:58:26.493Z",
+    "product": 3,
+    "sale": 11,
+    "count": 1,
+    "price_purchase": "1.500",
+    "price_sale": "2.30",
+    "tax": "0.18",
+    "anulate": false
+  }
+},
+{
+  "model": "venta.saledetail",
+  "pk": 25,
+  "fields": {
+    "created": "2020-06-05T00:58:26.499Z",
+    "modified": "2020-06-05T00:58:26.499Z",
+    "product": 4,
+    "sale": 11,
+    "count": 1,
+    "price_purchase": "1.000",
+    "price_sale": "2.30",
+    "tax": "0.18",
+    "anulate": false
+  }
+},
+{
+  "model": "venta.saledetail",
+  "pk": 26,
+  "fields": {
+    "created": "2020-06-05T00:58:39.019Z",
+    "modified": "2020-06-05T00:58:39.019Z",
+    "product": 3,
+    "sale": 12,
+    "count": 1,
+    "price_purchase": "1.500",
+    "price_sale": "2.30",
+    "tax": "0.18",
+    "anulate": false
+  }
+},
+{
+  "model": "venta.saledetail",
+  "pk": 27,
+  "fields": {
+    "created": "2020-06-05T00:58:39.022Z",
+    "modified": "2020-06-05T00:58:39.022Z",
+    "product": 4,
+    "sale": 12,
+    "count": 1,
+    "price_purchase": "1.000",
+    "price_sale": "2.30",
+    "tax": "0.18",
+    "anulate": false
+  }
+},
+{
+  "model": "venta.saledetail",
+  "pk": 28,
+  "fields": {
+    "created": "2020-06-05T00:59:53.311Z",
+    "modified": "2020-06-05T00:59:53.311Z",
+    "product": 1,
+    "sale": 13,
+    "count": 1,
+    "price_purchase": "0.600",
+    "price_sale": "1.00",
+    "tax": "0.18",
+    "anulate": false
+  }
+},
+{
+  "model": "venta.saledetail",
+  "pk": 29,
+  "fields": {
+    "created": "2020-06-05T00:59:53.314Z",
+    "modified": "2020-06-05T00:59:53.314Z",
+    "product": 2,
+    "sale": 13,
+    "count": 1,
+    "price_purchase": "1.300",
+    "price_sale": "2.00",
+    "tax": "0.18",
+    "anulate": false
+  }
+},
+{
+  "model": "venta.saledetail",
+  "pk": 30,
+  "fields": {
+    "created": "2023-03-27T15:29:32.126Z",
+    "modified": "2023-03-27T15:29:32.126Z",
+    "product": 4,
+    "sale": 14,
+    "count": 1,
+    "price_purchase": "1.000",
+    "price_sale": "2.30",
+    "tax": "0.18",
+    "anulate": false
+  }
+},
+{
+  "model": "venta.saledetail",
+  "pk": 31,
+  "fields": {
+    "created": "2023-03-27T15:29:32.127Z",
+    "modified": "2023-03-27T15:29:32.127Z",
+    "product": 5,
+    "sale": 14,
+    "count": 1,
+    "price_purchase": "50.000",
+    "price_sale": "70.00",
+    "tax": "0.18",
+    "anulate": false
+  }
+},
+{
+  "model": "venta.saledetail",
+  "pk": 35,
+  "fields": {
+    "created": "2024-01-04T00:39:30.747Z",
+    "modified": "2024-01-04T00:39:30.747Z",
+    "product": 2,
+    "sale": 18,
+    "count": 1,
+    "price_purchase": "1.300",
+    "price_sale": "2.00",
+    "tax": "0.18",
+    "anulate": false
+  }
+},
+{
+  "model": "venta.saledetail",
+  "pk": 36,
+  "fields": {
+    "created": "2024-01-04T00:39:30.748Z",
+    "modified": "2024-01-04T00:39:30.748Z",
+    "product": 5,
+    "sale": 18,
+    "count": 2,
+    "price_purchase": "50.000",
+    "price_sale": "70.00",
+    "tax": "0.18",
+    "anulate": false
+  }
+},
+{
+  "model": "venta.saledetail",
+  "pk": 37,
+  "fields": {
+    "created": "2024-01-04T00:40:04.153Z",
+    "modified": "2024-01-04T00:40:04.153Z",
+    "product": 5,
+    "sale": 19,
+    "count": 1,
+    "price_purchase": "50.000",
+    "price_sale": "70.00",
+    "tax": "0.18",
+    "anulate": false
+  }
+},
+{
+  "model": "venta.saledetail",
+  "pk": 38,
+  "fields": {
+    "created": "2024-01-04T22:26:47.044Z",
+    "modified": "2024-01-04T22:26:47.044Z",
+    "product": 1,
+    "sale": 20,
+    "count": 2,
+    "price_purchase": "0.600",
+    "price_sale": "1.00",
+    "tax": "0.18",
+    "anulate": false
+  }
+},
+{
+  "model": "venta.saledetail",
+  "pk": 39,
+  "fields": {
+    "created": "2024-01-04T22:26:47.045Z",
+    "modified": "2024-01-04T22:26:47.045Z",
+    "product": 5,
+    "sale": 20,
+    "count": 1,
+    "price_purchase": "50.000",
+    "price_sale": "70.00",
+    "tax": "0.18",
+    "anulate": false
+  }
+}
+]
