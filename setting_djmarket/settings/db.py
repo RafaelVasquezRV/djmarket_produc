@@ -26,6 +26,7 @@ DB_POSTGRESQL = {
 
 STATIC_URL = 'static/'
 STATICFILES_DIRS = ['static', BASE_DIR]
+STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
