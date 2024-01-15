@@ -12,7 +12,7 @@ DB_SQLITE3 = {
 
 DB_POSTGRESQL = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': get_secret('DB_NAME'),
         'USER': get_secret('USER'),
         'PASSWORD': get_secret('PASSWORD'),
